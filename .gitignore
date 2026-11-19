@@ -1,0 +1,45 @@
+
+# ==========================================
+# SilentNotes - Git Ignore
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build and distribution files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Application-generated notes
+notes.txt
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
